@@ -1,0 +1,8 @@
+.navbar-light .navbar-nav .nav-link.active {
+  color: var(--bs-teal);
+  text-decoration: underline;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: var(--bs-dark);
+}
