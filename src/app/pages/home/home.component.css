@@ -1,19 +1,23 @@
 
 .banner
 {
-  background-image: url('../../../assets/img/banner2.jpg');
+  background-image: url('../../../assets/img/AU-Gourmet-1-new-scaled.jpg');
   height: 720px;
   background-position: center;
   background-size: cover;
 }
 .banner h1{
+  text-shadow:
+  2px 3px 4px black,
+  0 0 4rem white;
   color: green;
   font-size: 50px;
+  border-radius: 4px;
   font-weight: bold;
   position: absolute;
   left:10px
 }
-.content a{
+.content div a{
   font-size: 20px;
   padding: 5px 15px;
   border-radius: 8px;
