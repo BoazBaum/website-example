@@ -8,9 +8,9 @@
 }
 .banner h1{
   text-shadow:
-  2px 3px 4px black,
-  0 0 4rem white;
-  color: green;
+  2px 4px 4px green,
+  0 0 1rem black;
+  color: white;
   font-size: 50px;
   border-radius: 4px;
   font-weight: bold;
