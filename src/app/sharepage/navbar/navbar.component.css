@@ -2,13 +2,21 @@
   color: var(--bs-teal);
   text-decoration: underline;
 }
-
+ .navbar{
+  padding-bottom: 10px;
+ }
 .navbar-light .navbar-nav .nav-link {
   color: var(--bs-dark);
 }
 
 .sticky-navbar{
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 20; /* Set z-index to ensure navbar stays on top */
+  width: 100%;
+  z-index: 100; /* Set z-index to ensure navbar stays on top */
+  
+}
+
+.navbar-spacer{
+  height: 55px;
 }
